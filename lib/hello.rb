@@ -1,5 +1,9 @@
 def hello_t(arr)
-  arr.each do |ele|
-    yield(arr)
+  i = 0
+
+  while i < arr.length
+    yield arr[i]
+    i += 1
   end
+  arr
 end
