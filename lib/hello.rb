@@ -1,5 +1,5 @@
 def hello_t(arr)
   arr.each do |ele|
-    yield
+    yield(arr)
   end
 end
